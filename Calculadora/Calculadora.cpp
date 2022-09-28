@@ -4,7 +4,8 @@
 using namespace std ;
 int main() {
     //Este programa hace operaciones entre dos Numeros.
-    int n1,n3;
+    float n1,n3;
+    int n,m;
     char n2;
     cout <<"Calculadora de dos digitos"<<endl ;
     cout <<"Ingrese el primer numero:"<<endl ;
@@ -20,7 +21,10 @@ int main() {
     if (n2 == '-') {cout  << "Resultado: " << n1 << n2 << n3 << " = " << n1 - n3 << endl;}
     if (n2 == '/') {cout  << "Resultado: " << n1 << n2 << n3 << " = " << n1 / n3 << endl;}
     if (n2 == '*') {cout  << "Resultado: " << n1 << n2 << n3 << " = " << n1 * n3 << endl;}
-    if (n2 == '%') {cout  << "Resultado: " << n1 << n2 << n3 << " = " << n1 % n3 << endl;}
+    if (n2 == '%') {
+        m=n1;
+        n=n3;
+        cout  << "Resultado: " << n1 << n2 << n3 << " = " << m%n << endl;}
 
     return 0;
 }
