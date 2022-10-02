@@ -1,3 +1,6 @@
+// Autor: Victor Hugo Mejia Trejo
+// Fecha: 02 Octubre 2022
+
 #include <iostream>
 #include <array>
 
