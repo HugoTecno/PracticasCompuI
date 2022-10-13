@@ -18,6 +18,14 @@ void GaussJordan(matriz & miMatriz);
 template <typename matriz>
 void ImprimirSolucion(matriz & miMatriz);
 
+template <typename matriz>
+void ReordenarFilas(matriz &miMatriz)
+
+template <typename matriz>
+array<float, 4> Multiplicacion(array<float, 4> a, float multiplo)
+
+template <typename matriz>
+array<float, 4> Resta(array<float, 4> a, array<float, 4> b)
 
 int main()
 {
@@ -131,11 +139,7 @@ void GaussJordan(matriz & miMatriz)
     {
         miMatriz[i] = Multiplicacion<matriz>(miMatriz[i], 1 / miMatriz[i][i]);
     }
-
-
-
-
-    //TODO
+  //TODO
 }
 template <typename matriz>
 array<float, 4> Resta(array<float, 4> a, array<float, 4> b)
