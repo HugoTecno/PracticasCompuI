@@ -13,20 +13,25 @@ template <typename matriz>
 void ImprimirMatriz(matriz & miMatriz);
 
 template <typename matriz>
-void GaussJordan(matriz & miMatriz);
+void LlenarMatriz(matriz &miMatriz);
 
 template <typename matriz>
-void ImprimirSolucion(matriz & miMatriz);
+void ImprimirMatriz(matriz &miMatriz);
 
 template <typename matriz>
-void ReordenarFilas(matriz &miMatriz)
+void GaussJordan(matriz &miMatriz);
 
 template <typename matriz>
-array<float, 4> Multiplicacion(array<float, 4> a, float multiplo)
+void ImprimirSolucion(matriz &miMatriz);
 
 template <typename matriz>
-array<float, 4> Resta(array<float, 4> a, array<float, 4> b)
+array<float, 4> Resta(array<float, 4> a, array<float, 4> b);
 
+template <typename matriz>
+array<float, 4> Multiplicacion(array<float, 4> a, float multiplo);
+
+template <typename matriz>
+void ReordenarFilas(matriz &miMatriz);
 int main()
 {
     // Definimos el número de variables de nuestro sistema
@@ -139,7 +144,7 @@ void GaussJordan(matriz & miMatriz)
     {
         miMatriz[i] = Multiplicacion<matriz>(miMatriz[i], 1 / miMatriz[i][i]);
     }
-  //TODO
+    //TODO
 }
 template <typename matriz>
 array<float, 4> Resta(array<float, 4> a, array<float, 4> b)
