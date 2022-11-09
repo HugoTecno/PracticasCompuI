@@ -1,6 +1,6 @@
 #ifndef PUNTOS_PUNTO_H
 #define PUNTOS_PUNTO_H
-
+#include <cmath>
 class Punto2D {
 //métpodos de set
 public:
