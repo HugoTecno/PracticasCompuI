@@ -1,6 +1,7 @@
 #include <iostream>
 #include <array>
 #include <cmath>
+//Incluir libreria 
 
 // Incluimos nuestro encabezado con la definición de la clase Punto2D
 #include "Punto.h"
