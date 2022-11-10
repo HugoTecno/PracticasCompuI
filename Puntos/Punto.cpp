@@ -2,7 +2,7 @@
 // Created by vic-h on 29/10/2022.
 // Modificar
 #include "Punto.h"
-#include <cmath>
+#include <cmath.h>
 void Punto2D::SetPosicion(float temp1, float temp2) {
     x = temp1;
     y = temp2;
