@@ -1,5 +1,4 @@
 #include <math.h>
-//Modificar
 #ifndef PUNTOS_PUNTO_H
 #define PUNTOS_PUNTO_H
 
