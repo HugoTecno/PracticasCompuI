@@ -1,8 +1,6 @@
-//
-// Created by vic-h on 29/10/2022.
-
 #include "Punto.h"
 #include <math.h>
+
 void Punto2D::SetPosicion(float temp1, float temp2) {
     x = temp1;
     y = temp2;
