@@ -1,28 +1,26 @@
-#include <math.h>
-#ifndef PUNTOS_PUNTO_H
-#define PUNTOS_PUNTO_H
+#ifndef PRACTICA3_PUNTO_H
+#define PRACTICA3_PUNTO_H
 
-class Punto2D {
-//métpodos de set
+
+class Punto2D{
+
+private:
+
+    float x,y;
+
 public:
+
     void SetPosicion(float temp1, float temp2);
-    // métodos get
+
     float GetX();
     float GetY();
 
-    void Trasladar(int temp1, int temp2);
-    void RotarRespectoAlOrigen(int temp1);
+    void Trasladar(float temp1, float temp2);
+    void RotarRespectoAlOrigen(float temp1);
     void Escalar(float temp1, float temp2);
-
-
-private:
-    float x,y;
-
 
 };
 
 
-
-
-#endif //PUNTOS_PUNTO_H
+#endif //PRACTICA3_PUNTO_H
 
