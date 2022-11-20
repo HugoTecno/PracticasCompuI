@@ -74,15 +74,12 @@ int CalcularCargaApH(float& ph, grupos todosGrupos)
 {
     int cargaT = 0;
     for (int i = 0; i < 4; i++) {
-        if (ph <= todosGrupos[i].) {
-        }
-
-
+        if (ph <= todosGrupos[i].Getpk()){
+            cargaT += (todosGrupos[i].GetCar()+1);
+        } else
+            cargaT += todosGrupos[i].GetCar();
     }
-
     return cargaT;
 
-
-    return 5;
     //TODO
 }
