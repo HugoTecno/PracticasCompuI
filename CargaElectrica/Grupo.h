@@ -4,7 +4,7 @@
 #ifndef CARGAELECTRICA_GRUPO_H
 #define CARGAELECTRICA_GRUPO_H
 using namespace std;
-using namespace std;
+
 
  class Grupo{
  public:
